@@ -16,7 +16,7 @@ const app = express();
 // middleware connect frontend and backend
 app.use( 
     cors({
-        origin: ['http://localhost:5174', 'http://localhost:5173'],// Allow requests from this origin
+        origin: ['https://medix-pro.vercel.app/', 'https://medix-pro-znap.vercel.app/'],// Allow requests from this origin
         method: ["GET", "POST", "DELETE", "PUT"],// Specify allowed methods
         credentials: true,// Enable this if your request includes cookies or authentication
     })
